@@ -157,6 +157,7 @@ for your target platforms.
    ./ct-ng build
 
 
+"unset LD_LIBRARY_PATH" If following issue observed "[ERROR]  Don't set LD_LIBRARY_PATH. It screws up the build."
 Update an environment variable to refer to the alsa-lib with the one we've just built.
 
 .. code-block:: bash
